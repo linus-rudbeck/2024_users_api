@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String getTest(){
-        return "THis is a test controller that we add to a separate branch";
+        return "In main branch";
     }
 }
