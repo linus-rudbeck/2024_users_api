@@ -24,4 +24,9 @@ public class ConflictsController {
     public String patchConflicts(){
         return "Patching conflicts";
     }
+
+    @PutMapping("/conflicts")
+    public String putConflicts(){
+        return "Putting conflicts";
+    }
 }
