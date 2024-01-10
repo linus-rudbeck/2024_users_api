@@ -2,7 +2,6 @@
 # FROM openjdk:8-jdk-alpine
 FROM openjdk:21-jdk
 
-
 # Sätt arbetsmappen (där vi jobbar) till /app
 WORKDIR /app
 
